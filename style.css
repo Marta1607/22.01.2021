@@ -14,8 +14,7 @@
     margin: 2px;
 }
 #inputShowScore{
-    border: 1px solid black;
-    width: 95%;
+    width: 99%;
     height: 100px;
     display: block;
     border-radius: 5%;
@@ -28,24 +27,34 @@
     background-color: white;
 }
 .column {
-    border-radius: 5%;
     border: 1px solid black;
     padding: 15px;
     width: 40%;
+    border-radius: 5%;
+
 }
 .btn1 {
     background-color: gray;
+    border-radius: 5%;
 }
 .btn2 {
     background-color: rgb(20, 20, 170);
+    border-radius: 5%;
     color: white;
 }
 .btn3 {
     width: 105%;
+    text-align: center;
+    text-decoration: none;
+    min-width: 90px;
+    background-color: gray;
 }
 .btn4 {
     border-left: 2px solid black;
-    
+    text-align: center;
+    text-decoration: none;
+    min-width: 90px;
+    background-color: gray;
 }
 .btn1:hover{
     background-color: lightgray;
@@ -55,4 +64,7 @@
 }
 .btn4:hover{
     background-color: lightgray;
+}
+.grid-item:hover{
+    cursor: pointer;
 }
